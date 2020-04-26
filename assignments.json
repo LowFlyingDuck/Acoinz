@@ -1,7 +1,13 @@
 {
-  "000000": "REGISTER",
-  "ffffff": "REGISTER",
-  "RESERVE": "REGISTER",
-  "CONLOAD": "REGISTER",
-  "SINLOAD": "REGISTER"
+  "REGISTER": [
+    "000000",
+    "ffffff",
+    "RESERVE",
+    "CONLOAD",
+    "SINLOAD",
+    "NILS@MAIN.kdddrg"
+  ],
+  "NILS@MAIN": [
+    "NILS@MAIN.kdddrg"
+  ]
 }
