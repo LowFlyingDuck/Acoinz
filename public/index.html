@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acoinz</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="favicon.png" type="image/png">
+</head>
+<body>
+  <a href="#home" class="goup">▲</a>
+  <div class="container">
+    <main id="home">
+      <ul class="nav">
+        <li><a href="#about">ÜBER ACOINZ</a></li>
+        <li><a href="#download">DOWNLOAD MINER</a></li>
+        <li><a href="#rules">REGELN</a></li>
+        <li><a href="#docs">DOKS</a></li>
+      </ul>
+      <div>
+        <img src="logo.svg" alt="logo">
+        <h3>centralized bitcoin</h3>
+      </div>
+      <button>LOGIN</button>
+    </main>
+    <section id="about">
+      <h1>Über Acoinz</h1>
+      <p class="quote">
+        <strong>"Der Zweck für ein zentralisiertes Finanzsystem ist nicht Menschen auszubeuten, sondern Stabilität in der Gesellschaft zu gewährleisten."</strong><br>
+        - Abhijit Naskar
+      </p>
+      <p>und</p>
+      <p class="quote">
+        <strong>Zentralisiertes Blockchain kann eine große Bereicherung für die Gesellschaft sein, während ein dezentralisiertes Blockchain nur für Chaos und Zerstörung sorgt."</strong><br>
+        - Abhijit Naskar
+      </p>
+      <p>haben dieses Projekt inspiriert</p>
+    </section>
+    <section>
+      <h1>Über Acoinz</h1>
+      <div>
+        <p>Acoinz ist eine Kryptowährung. Sie unterscheidet sich von anderen in mehreren Dingen:
+          Sie basiert auf einem Netzwerk mit Zentrum.
+          Die Einheit besteht aus generierten Nonces selber.
+          Der Algorythmus für das Hashen ist absichtlich knackbar.
+          Die Nonces speichern Ihren Erschaffer.
+          Durch das zentralisierte Netzwerk ist die Währung koordiniert und es ist nicht möglich Netzwerkteilnehmer zu Betrügen, indem man sich fremde Nonces zuschreibt.
+          Der Server speichert alle Aktivitäten und stellt diese öffentlich zur Verfügung.
+          Nonces können entweder selbst generiert oder von anderen Workers (Netzwerkteilnehmern) erhalten werden. Ein Nonce entspricht einem Acoin. Sobald ein Nonce generiert wurde muss man diese für sich beanspruchen. Das funktioniert folgendermaßen:
+        </p>
+        <ol>
+          <li>1. Der Client generiert Nonces mit seiner ID</li>
+          <li>2. Sobald ein gütliger Nonce gefunden wurde, sendet er diesen an den Server</li>
+          <li>3. Der Server berechnet die Gültigkeit des Nonce</li>
+          <li>4. Falls gültig wird der Nonce zum Acoin und <i>registriert</i> ist aber noch <i>unzugeordnet</i></li>
+          <li>5. Der Server entnimmt dem Acoin die Adresse</li>
+          <li>6. Falls Erfolgreich wird sie der Adresse <i>zugeordnet</i> andernfalls bleibt sie <i>unzugeordnet</i></li>
+          <li>7. Der Adressant kann den Acoin weiterverschicken, aber die Ursprungsadresse bleibt vorhanden</li>
+          <li>8. <i>Unzugeordnete</i> Acoinz werden zufälligen Netzwerkteilnehmern <i>zugeordnet</i></li>
+        </ol>
+      </div>
+    </section>
+    <section id="download">
+      <h1>Download Miner</h1>
+      <p>Hier ist der Download zu einer simplen Version eines Acoinz miners. Der miner arbeitet sehr langsam. Eine schnelle Version des Miners ist nicht offiziell veröffentlicht. Das Programm arbeitet in JavaScript. Falls es nicht möglich ist, eine Software herunterzuladen, kann auch der online Miner verwendet werden. Dieser ist jedoch wesentlich langsamer und erfordert mehr Leistung.</p>
+      <div class="download">
+        <div>
+          <h2>WINDOWS</h2>
+          <p>Written in ElectronJS. <br> Verfügbar für Win 7 und neuer.</p>
+          <a class="button" href="windows.zip" download>DOWNLOAD</a>
+        </div>
+        <div>
+          <h2>LINUX</h2>
+          <p>Written in ElectronJS. <br> Verfügbar für Debian und Ubuntu. </p>
+          <a class="button" href="windows.zip" download>DOWNLOAD</a>
+        </div>
+        <div>
+          <h2>MacOS</h2>
+          <p>Written in ElectronJS. <br> Verfügbar für 4.1x und neuer. </p>
+          <a class="button" href="windows.zip" download>DOWNLOAD</a>
+        </div>
+        <div>
+          <h2>Online</h2>
+          <p>Written in JavaScript. <br> Verfügbar unter Browsern mit JavaScript. </p>
+          <a class="button" href="AcoinzMiner.html">OPEN</a>
+        </div>
+      </div>
+    </section>
+    <section id="rules">
+      <h1>Regeln des Acoinz</h1>
+      <p>Um die Existenz des Acoinz zu gewährleisten müssen einige Regeln festgelegt werden:</p>
+      <div>
+        <ul>
+          <li>Es können pro Adresse täglich nur 50 Anfragen für Nonceregistrierung getätigt werden.</li>
+          <li>Die Transparenz des Systems darf nicht beschnitten werden. Alle Accounts einschließlich ihrer Acoinz sind offengestellt.</li>
+          <li>Alle gefundenen Nonces müssen registriert werden. Es ist verboten Nonces absichtlich nicht zu registrieren. Accounts von Widertätern werden umgehend gelöscht.</li>
+          <li>Jede Aktivität wird mit seinem Acoin gespeichert und offengelegt.</li>
+        </ul>
+        <ul>
+          <li>Transaktionen von fremden Acoinz wird mit halber Leerung bestraft.</li>
+          <li>Bei fehlgeschlagenen Transaktionen werden die Acoinz zurück an ihre Adresse gesendet.</li>
+          <li>Fehlgeschlagene Transaktionen von unadressierten Acoinz führt zur unzuordnung derselben.</li>
+          <li>Einen gültigen Acoin als Autorisation zu verwenden ist verboten.</li>
+          <li>Eine Transaktion darf niemals geheimgehalten werden.</li>
+        </ul>
+      </div>
+    </section>
+    <section id="docs">
+      <h1>Dokumentation</h1>
+      <p>Hier ist die Dokumentation des Registrierungssystems zu finden. Das Dokument steht als PDF Datei zur Verfügung und beschreibt genau, wie Acoinz generiert und bestätigt werden können. Sie geht dabei auf technische Funktionsweisen des Servers ein.</p>
+      <div class="download">
+        <div>
+          <h2>DOCS.PDF</h2>
+          <p>Offizielle Dokumentation des Acoinz. <br> Verfügbar unter Betriebssystemen mit graphischer Benutzeroberfläche</p>
+          <a href="docs.pdf" class="button" download>DOWNLOAD</a>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
